@@ -1,6 +1,6 @@
 var Cvlc    = require('../index'),
-    player1 = new Cvlc(),
-    player2 = new Cvlc(),
+    player1 = new Cvlc({debug: true}),
+    player2 = new Cvlc({debug: true}),
     file    = __dirname + '/ubuntu-login.ogg',
     fs      = require('fs'),
     stream;
