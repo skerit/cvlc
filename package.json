@@ -1,6 +1,6 @@
 {
 	"name": "cvlc",
-	"version": "0.1.0",
+	"version": "0.1.1-alpha",
 	"description": "Create and control CVLC instances using node.js",
 	"main": "index.js",
 	"scripts": {
@@ -11,7 +11,8 @@
 		"url": "https://github.com/skerit/cvlc.git"
 	},
 	"keywords": [
-		"audio"
+		"audio",
+		"vlc"
 	],
 	"dependencies": {
 		"protoblast": "~0.1.11",
