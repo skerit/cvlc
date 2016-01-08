@@ -18,7 +18,7 @@ console.time('starting_stream');
 player2.play(stream, function startedStream() {
 	console.timeEnd('starting_stream');
 
-	player2.cmd('rate 2', function gotResponse(err, response) {
+	player2.cmd('rate 3', function gotResponse(err, response) {
 		// Sound should be playing at twice the speed
 	});
 });
