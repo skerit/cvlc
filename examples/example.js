@@ -14,11 +14,11 @@ player1.play(file, function startedLocalFile() {
 // Stream test
 stream = fs.createReadStream(file);
 
-console.time('starting_stream')
+console.time('starting_stream');
 player2.play(stream, function startedStream() {
-	console.timeEnd('starting_stream')
-});
+	console.timeEnd('starting_stream');
 
-player2.cmd('rate 2', function gotResponse(err, response) {
-	// Sound should be playing at twice the speed
+	player2.cmd('rate 2', function gotResponse(err, response) {
+		// Sound should be playing at twice the speed
+	});
 });
